@@ -5,7 +5,7 @@ class Shape{
 
 class Rectangle extends Shape{
 
-    calcSize(){
+    calcSize() : number{
         return this.width * this.length;
     }
 }

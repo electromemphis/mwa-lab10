@@ -1,7 +1,7 @@
 class BankAccount{
-    money: number;
+    money: number = 2000;
 
-    deposit(value){
+    deposit(value:number){
         this.money = value;
     }
 }
