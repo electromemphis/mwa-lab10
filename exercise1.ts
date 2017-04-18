@@ -10,3 +10,6 @@ let myself:{name:string,bankAccount, hobbies:[string]}={
     bankAccount:bankAccount,
     hobbies:["violin", "Cooking"]
 };
+
+myself.bankAccount.deposit(3000);
+console.log(myself);
